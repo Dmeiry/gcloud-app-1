@@ -8,7 +8,7 @@ app = flask.Flask(__name__)
 @app.get("/")
 def hello():
     """Return a friendly HTTP greeting."""
-    return "APP FROM GIT HUB !\n  NASSER DMEIRY - git V2"
+    return "APP FROM GIT HUB !\n  LOLO DMEIRY - git V2"
 
 
 if __name__ == "__main__":
